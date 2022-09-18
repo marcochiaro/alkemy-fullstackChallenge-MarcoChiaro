@@ -1,0 +1,34 @@
+{
+  "name": "alkemy-fullstack-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "test": "jest --verbose",
+    "test:ci": "jest --ci",
+    "test:watch": "npm run test -- --watch",
+    "test:cov": "npm run test -- --coverage",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "antd": "^4.22.3",
+    "axios": "^0.27.2",
+    "next": "12.1.5",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  }
+}
